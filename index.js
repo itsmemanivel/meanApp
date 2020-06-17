@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const router = require('router');
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 const uri = "mongodb://veluvijay:blogger1804@ds239903.mlab.com:39903/sample";
 var path = require('path');
 var mongoose = require('mongoose');
